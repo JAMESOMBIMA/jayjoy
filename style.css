@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: orange;
+ background-origin: border-box; 
+  background-size: cover;
+  
+}
+.header{
+  background-color: transparent;
+  border-bottom: 1px solid blue;
+}
+h2{
+  color: white;
+  background-color: red;
+  margin: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: white ;
+  padding: 5px;
+  border-radius: 10px;
+ 
+}
+a{
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+}
+a:hover{
+  color: blue;
+  
+}
+a:active{
+  color: white;
+}
+.home-body{
+  background-color: blue;
+}
+.message{
+  background-image: url("cover page pics/1732092274390.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin: 10px;
+  overflow: auto;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+h4{
+  color: rgb(104, 221, 8);
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 1px 2px 4px blue;
+}
+.pic-area{
+  background-color: rgb(16, 16, 58);
+  height: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  overflow: auto;
+}
+
+img{
+  margin: 5px;
+  border-radius: 10px;
+
+}
+h5{
+  color: white;
+  margin: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+p{
+  background-image: url("joy pics/message.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(240, 243, 243);
+  margin: 20px;
+  margin-top: 40px;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  word-spacing: 4px;
+  overflow: auto;
+  letter-spacing: 2px;
+  box-shadow: 0 1px 2px 4px blue;
+  padding: 5px;
+}
+.jayd{
+  height: 400px;
+  background-color: white;
+  box-shadow: 1px 1px 2px black;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: auto;
+ 
+}
+.jay{
+ height: 400px;
+ background-color: white;
+ box-shadow: 1px 1px 2px black;
+ margin: 10px;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ overflow: auto;
+ align-items: center;
+ padding: 10px auto;
+
+}
+.joy{
+  height: 400px;
+  background-color: white;
+  box-shadow: 1px 1px 2px black;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+ 
+ }
+ h3{
+  text-align: center;
+  margin: 20px auto;
+ }
+ .picture{
+  border:3px solid red;
+  margin: 20px auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  overflow: hidden;
+ }
+.img1{
+  height: 200px;
+}
+
+
+.about{
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  color: white;
+  margin: 20px;
+  height: 60px;
+  align-items: center;
+  border-radius: 8px;
+}
+.name, .contact{
+ padding: 10px;
+ width: 120px;
+ 
+}
+.name{
+  height: 40px;
+  border-right: solid 1px white;
+  padding-right: 20px;
+  width: 100px;
+}
+.contact{
+  border-left:solid 1px white ;
+  height: 40px;
+  
+}
+.buttons{
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  box-shadow: 1px 1px 4px red;
+  height: 50px;
+  align-items: center;
+  border-radius: 5px;
+}
+button{
+  background-color: white;
+  border: solid 2px red;
+  height: 40px;
+  width: 100px;
+  color: red;
+  font-size: large;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+  color: white;
+  box-shadow: 1px 1px 4px red;
+}
+button:active{
+  opacity: 0.6;
+}
+b{
+  border-bottom: solid 2px rgb(250, 249, 249);
+  width: 100%;
+}
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 20px;
+  margin-right: 50px;
+  align-items: center;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: red;
+  box-shadow: 1px 1px 3px rgb(233, 6, 6);
+  padding: 5px;
+  border-radius: 5px;
+ 
+}
+a:hover{
+  background-color: red;
+  color: white;
+  box-shadow: 1px 1px 4px red;
+}
+.copyright{
+  margin: 20px auto;
+  text-align: center;
+}
+.joyjoy{
+  height: 350px;
+ 
+}
